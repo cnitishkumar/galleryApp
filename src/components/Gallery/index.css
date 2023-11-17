@@ -1,0 +1,44 @@
+.bg-container {
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.gallery-image {
+  width: 70vw;
+  max-width: 800px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 20px;
+}
+.tag-line {
+  font-size: 17px;
+  color: #64748b;
+  font-weight: 700;
+}
+
+.ul-el {
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .gallery-image {
+    width: 80vw;
+    max-width: 550px;
+  }
+  .heading {
+    font-size: 17px;
+  }
+  .tag-line {
+    font-size: 15px;
+  }
+}

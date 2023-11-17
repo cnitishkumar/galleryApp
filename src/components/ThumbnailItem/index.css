@@ -1,0 +1,26 @@
+.list-item {
+  list-style: none;
+}
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  outline: none;
+  opacity: 0.5;
+}
+.thumbnail-btn {
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.activeThumbnail {
+  opacity: 1;
+}
+
+@media screen and (max-width: 576) {
+  .thumbnail {
+    width: 80px;
+    height: 80px;
+  }
+}
